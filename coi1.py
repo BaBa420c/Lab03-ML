@@ -72,4 +72,7 @@ neigh.fit(X_train, y_train)
 # Make predictions and check accuracy
 y_pred = neigh.predict(X_test)
 accuracy = neigh.score(X_test, y_test)
+
 print("\nKNN Classifier Accuracy:", accuracy) 
+
+print("Commit")
